@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+/*
+ * @Author: your name
+ * @Date: 2021-10-22 20:11:44
+ * @LastEditTime: 2021-10-22 20:43:16
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \garena\src\App.js
+ */
+import Gerena from './page/garena'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Gerena />
     </div>
   );
 }
